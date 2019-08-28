@@ -99,7 +99,7 @@ $(function(){
 		var m4 = $(".taxi4");
 		TweenMax.to(m4, 3, {
 			repeat: -1,
-			right: "57%",
+			right: "40%",
 			yoyo: true,
 			opacity: 1
 		});
