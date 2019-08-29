@@ -146,7 +146,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Noto Sans SC", "sans-serif";
+  font-family: "Microsoft JhengHei", "微軟正黑體";
   background-color: #030452;
 }
 
@@ -175,28 +175,29 @@ body {
 .menu ul {
   float: right;
   margin-top: 35px;
-  cursor:pointer;
+  cursor: pointer;
   margin-right: 60px;
 }
 
 .menu ul li {
   display: inline-block;
   margin-left: 40px;
-  
+
 }
 
 .menu ul li a {
   color: #000;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   display: block;
+  font-weight: bold;
 }
 
-.menu ul li a::after{
+.menu ul li a::after {
   content: "";
   display: block;
   width: 0%;
@@ -209,19 +210,19 @@ body {
   transition: 0.3s;
 }
 
-.menu ul li a:hover{
-  color:#2a66ad;
+.menu ul li a:hover {
+  color: #2a66ad;
 }
 
-.menu ul li a:hover::after{
+.menu ul li a:hover::after {
   width: 100%;
 }
 
-.menu ul li a.act{
-  color:#f57e25;
+.menu ul li a.act {
+  color: #f57e25;
 }
 
-.menu ul li a.act::after{
+.menu ul li a.act::after {
   content: "";
   display: block;
   width: 100%;
@@ -231,13 +232,13 @@ body {
 
 }
 
-.menu .icon{
+.menu .icon {
   float: right;
   margin-top: 28px;
   margin-right: 30px;
 }
 
-.fb{
+.fb {
   width: 30px;
   height: 30px;
   display: inline-block;
@@ -250,11 +251,11 @@ body {
   margin-right: 8px;
 }
 
-.fb:hover{
+.fb:hover {
   background-position-y: -30px;
 }
 
-.en{
+.en {
   width: 60px;
   height: 30px;
   display: inline-block;
@@ -293,15 +294,15 @@ body {
 }
 
 .tittle {
-  width: 750px;
-  height: 200px;
+  width: 753px;
+  height: 231px;
   position: absolute;
   left: 50%;
   top: 7%;
   margin-left: -375px;
 }
 
-.sign{
+.sign {
   width: 1255px;
   height: 407px;
   position: absolute;
@@ -311,7 +312,7 @@ body {
   overflow: hidden;
 }
 
-.light{
+.light {
   width: 1174px;
   height: 414px;
   position: absolute;
@@ -322,7 +323,7 @@ body {
   overflow: hidden;
 }
 
-.r1{
+.r1 {
   width: 93px;
   height: 126px;
   position: absolute;
@@ -331,7 +332,7 @@ body {
   margin-right: -400px;
 }
 
-.r2{
+.r2 {
   width: 100px;
   height: 106px;
   position: absolute;
@@ -340,7 +341,7 @@ body {
   margin-left: -600px;
 }
 
-.r3{
+.r3 {
   width: 80px;
   height: 144px;
   position: absolute;
@@ -349,7 +350,7 @@ body {
   margin-right: -550px;
 }
 
-.cloud1{
+.cloud1 {
   width: 995px;
   height: 182px;
   position: absolute;
@@ -358,7 +359,7 @@ body {
   top: 56%;
 }
 
-.cloud2{
+.cloud2 {
   width: 268px;
   height: 65px;
   position: absolute;
@@ -376,7 +377,7 @@ body {
   margin-left: -670px;
 }
 
-.taxi1{
+.taxi1 {
   width: 92px;
   height: 77px;
   position: absolute;
@@ -387,11 +388,11 @@ body {
   overflow: hidden;
 }
 
-.taxi2{
+.taxi2 {
   width: 92px;
   height: 78px;
   position: absolute;
-  top:50%;
+  top: 50%;
   right: 50%;
   margin-right: -350px;
   background: url(../img/taxi_mirror.png) 0 0 no-repeat;
@@ -415,12 +416,15 @@ body {
   position: absolute;
   top: 6%;
   right: 50%;
-  margin-right: -400px;
+  margin-right: -450px;
   background: url(../img/taxi_mirror.png) 0 0 no-repeat;
   overflow: hidden;
 }
 
-.menu .logo img,.tittle img,.sign img,.r1 img,
+.menu .logo img,
+.tittle img,
+.sign img,
+.r1 img,
 .r2 img,
 .r3 img,
 .cloud1 img,
@@ -430,18 +434,18 @@ body {
 .mainbar img,
 .info div:nth-child(1) img,
 .databox div:nth-child(1) img,
-.eimg img
-  {
+.eimg img {
   display: block;
   width: 100%;
 }
 
-.mainbar{
+.mainbar {
   width: 100%;
   height: auto;
 }
+
 .wrap_box,
-.event{
+.event {
   width: 100%;
   background-color: #ffffff;
   padding-bottom: 50px;
@@ -457,11 +461,10 @@ body {
 .info,
 .source,
 .vol,
-.article
-{
+.article {
   width: 900px;
   margin: auto;
-  padding-top:80px;
+  padding-top: 80px;
 }
 
 .swiper-container {
@@ -469,7 +472,7 @@ body {
   width: 900px;
   height: 1050px;
   margin: auto;
-  padding-top:80px;
+  padding-top: 80px;
   overflow: hidden;
 }
 
@@ -508,7 +511,7 @@ body {
 }
 
 .ebox,
-.ebox_n{
+.ebox_n {
   width: 280px;
   height: 310px;
   margin: 16px 0 0 16px;
@@ -516,7 +519,7 @@ body {
   vertical-align: top;
 }
 
-.ebox a{
+.ebox a {
   display: block;
   text-decoration: none;
   background-color: #0066B3;
@@ -547,34 +550,34 @@ body {
   margin-left: -5%;
 }
 
-.eimg{
+.eimg {
   width: 280px;
   height: 210px;
   overflow: hidden;
 }
 
-.eimg img{
+.eimg img {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.et{
+.et {
   width: 250px;
   height: 70px;
   padding: 15px;
 }
 
-.et h2{
+.et h2 {
   color: #fff;
   font-size: 15px;
-  overflow:hidden;
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
-.et p{
+.et p {
   height: 30px;
   overflow: hidden;
   font-size: 12px;
@@ -592,18 +595,18 @@ body {
   opacity: 0.5;
 }
 
-.vol{
+.vol {
   text-align: center;
 }
 
-.vol h3{
+.vol h3 {
   font-size: 20px;
   font-weight: bold;
   line-height: 30px;
   color: #484848;
 }
 
-.volbox{
+.volbox {
   width: 760px;
   height: 250px;
   margin: 20px auto;
@@ -612,7 +615,7 @@ body {
   text-align: center;
 }
 
-.volbox h4{
+.volbox h4 {
   font-size: 25px;
   font-weight: bold;
   line-height: 37px;
@@ -620,13 +623,19 @@ body {
   margin: 40px auto 15px;
 }
 
-.volbox h5{
+.volbox h6 {
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.volbox h5 {
   font-size: 20px;
   font-weight: bold;
   color: #049ADA;
 }
 
-.volbox a{
+.volbox h6 a {
   display: block;
   width: 120px;
   height: 50px;
@@ -642,7 +651,7 @@ body {
   transition: 0.3s;
 }
 
-.volbox a:hover{
+.volbox h6 a:hover {
   background-color: #0066B3;
 }
 
@@ -656,24 +665,37 @@ body {
 }
 
 .volbox_en h4 {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
-  line-height: 37px;
+  line-height: 30px;
   color: #000;
-  margin: 40px auto 15px;
+  margin: 40px 40px 15px;
+}
+
+.volbox h4 a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.volbox_en h6 {
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 30px;
 }
 
 .volbox_en h5 {
   font-size: 20px;
   font-weight: bold;
   color: #049ADA;
+  margin: 0px 40px;
+  line-height: 30px;
 }
 
-.volbox_en a {
+.volbox_en h6 a {
   display: block;
-  width: 240px;
+  width: 300px;
   height: 50px;
-  margin: 20px auto;
+  margin: 15px auto;
   background-color: #ED1C24;
   text-align: center;
   line-height: 50px;
@@ -685,16 +707,30 @@ body {
   transition: 0.3s;
 }
 
-.volbox_en a:hover {
+.volbox_en h6 a:hover {
   background-color: #0066B3;
 }
 
-.ps{
+.volbox_en h4 a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.volbox_en h4 a:hover,
+.volbox h4 a:hover .ps a:hover {
+  text-decoration: none;
+}
+
+.ps {
   text-align: left;
-  font-size: 13px;
+  font-size: 15px;
   color: #484848;
   line-height: 20px;
   margin-top: 50px;
+}
+
+.ps a {
+  color: #0066B3;
 }
 
 .databox {
@@ -703,12 +739,12 @@ body {
   padding-top: 30px;
 }
 
-.databox p{
+.databox p {
   font-size: 18px;
   color: #fff;
 }
 
-.databox input{
+.databox input {
   outline: none;
   border: none;
   height: 30px;
@@ -734,28 +770,28 @@ body {
   border: none;
 }
 
-.databox input[placeholder]{
+.databox input[placeholder] {
   padding: 0 10px;
 }
 
-.databox textarea[placeholder]{
+.databox textarea[placeholder] {
   padding: 10px;
 }
 
-.info > div,
-.databox > div{
+.info>div,
+.databox>div {
   display: inline-block;
 }
 
 .info div:nth-child(1),
-.databox div:nth-child(1){
+.databox div:nth-child(1) {
   width: 165px;
-  vertical-align:top;
+  vertical-align: top;
   margin-right: 15px;
 }
 
 .info div:nth-child(2),
-.databox div:nth-child(2){
+.databox div:nth-child(2) {
   width: 710px;
   position: relative;
 }
@@ -765,7 +801,7 @@ body {
   margin: auto;
 }
 
-.databox a{
+.databox a {
   display: block;
   position: absolute;
   width: 80px;
@@ -780,46 +816,46 @@ body {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
-  transition: 0.3s; 
+  transition: 0.3s;
 }
 
-.databox a:hover{
-   background-color: #f57e25;
-   color: #fff;
+.databox a:hover {
+  background-color: #f57e25;
+  color: #fff;
 
 }
 
-.info h2{
+.info h2 {
   font-size: 20px;
   font-weight: bold;
 }
 
-.info h2 > span{
+.info h2>span {
   color: #808080;
 }
 
-.info p{
+.info p {
   font-size: 13px;
   line-height: 20px;
   margin-top: 10px;
   color: #323232;
 }
 
-.info p a{
+.info p a {
   color: #0067b3;
   text-decoration: none;
 }
 
-.info p a:hover{
+.info p a:hover {
   text-decoration: underline;
 }
 
-.info p:nth-child(3){
+.info p:nth-child(3) {
   font-weight: bold;
   color: #000;
 }
 
-.barname{
+.barname {
   width: 900px;
   height: auto;
   background-color: #000;
@@ -831,11 +867,11 @@ body {
   color: #fff;
 }
 
-.barname p{
+.barname p {
   font-size: 13px;
 }
 
-.entra{
+.entra {
   text-align: left;
   font-size: 13px;
   color: #000;
@@ -843,10 +879,11 @@ body {
   line-height: 20px;
 }
 
-.entra a{
-   color: #049ADA;
+.entra a {
+  color: #049ADA;
 }
-.source img{
+
+.source img {
   display: block;
   width: 100%;
   margin-bottom: 100px;
@@ -861,11 +898,11 @@ body {
   flex-direction: row;
 }
 
-.mapbar > div{
+.mapbar>div {
   color: #fff;
 }
 
-.mapbar div:nth-child(1){
+.mapbar div:nth-child(1) {
   width: 100px;
   height: 70px;
   line-height: 70px;
@@ -885,12 +922,12 @@ body {
   vertical-align: middle;
 }
 
-.gmap{
+.gmap {
   width: 900px;
   height: 680px;
 }
 
-.footer{
+.footer {
   width: 100%;
   height: 20px;
   text-align: center;
