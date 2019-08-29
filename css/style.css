@@ -160,6 +160,7 @@ body {
 
 .menu {
   width: 100%;
+  min-width: 1200px;
   height: 90px;
   background-color: #ffffff;
 }
@@ -182,7 +183,6 @@ body {
 .menu ul li {
   display: inline-block;
   margin-left: 40px;
-
 }
 
 .menu ul li a {
