@@ -319,7 +319,7 @@ body {
   position: absolute;
   background: url(../img/lights.png@2x.png) 0 0 no-repeat;
   left: 50%;
-  top: 28%;
+  top: 30%;
   margin-left: -540px;
   overflow: hidden;
 }
