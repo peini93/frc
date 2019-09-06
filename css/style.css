@@ -868,7 +868,31 @@ body {
   color: #fff;
 }
 
-.barname p {
+.barname_en {
+  width: 900px;
+  height: auto;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+.barname_en h2 {
+  font-size: 15px;
+}
+
+.barname_en a {
+  color: #049ADA;
+}
+
+.barname_en a:hover {
+  text-decoration: none;
+}
+
+.barname p,
+.barname_en p {
   font-size: 13px;
 }
 
@@ -890,6 +914,46 @@ body {
   margin-bottom: 100px;
 }
 
+.routemap {
+  width: 900px;
+  position: relative;
+}
+
+.routemap a {
+  display: block;
+  position: absolute;
+}
+
+.routemap .m1,
+.routemap .m2 {
+  width: 96px;
+  height: 50px;
+}
+
+.routemap .m2 {
+  top: 138px;
+}
+
+.routemap .m3 {
+  width: 60px;
+  height: 20px;
+  top: 300px;
+  left: 210px;
+}
+
+.routemap .m4 {
+  width: 95px;
+  height: 20px;
+  top: 520px;
+  left: 180px;
+}
+
+.routemap .m5 {
+  width: 60px;
+  height: 20px;
+  top: 550px;
+  left: 180px;
+}
 
 .mapbar {
   width: 900px;
